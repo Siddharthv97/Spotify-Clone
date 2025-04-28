@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+
+    <!-- Fonts Awesome Css -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="../icons/favicon32.b64ecc03.png" type="image/x-icon">
+
+    <!-- Style Sheet  -->
+
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- --------------------------- Sidebar Section --------------------------- -->
+        <aside class="sidebar">
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-items" style="opacity: 1;">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#">Search</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="library">
+                <div class="lib-menu">
+                    <div class="lib-option">
+                        <svg role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24"
+                            data-encore-id="icon" class="Svg-sc-ytk21e-0 libicon">
+                            <path
+                                d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                            </path>
+                        </svg>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-title">
+                            Create your first playlist
+                        </p>
+                        <p class="box-info">
+                            It's easy, we'll help you
+                        </p>
+                        <button class="box-btn">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <h3 class="box-title">
+                            Let's find some podcasts to follow
+                        </h3>
+                        <p class="box-info">
+                            We'll keep you updated on new episodes </p>
+                        <button class="box-btn">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+
+        <section class="main-content">
+            <nav class="sticky-navbar">
+                <div class="sticky-navicon-left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="nav-btn">
+                    <button class="snb box-btn">Explore Premium</button>
+                    <button class="btn box-btn snb">
+                        <i class="fa-regular fa-circle-down"></i>Install App
+                    </button>
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </nav>
+
+            <!-- Card Content 1 -->
+            <div class="cards">
+                <div class="card-menu">
+                    <h2>Recently Played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="../images/horror time.jpg" alt="">
+                        <h4>Horror Time</h4>
+                        <p>Horror Time </p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/bollywood butter.jpg" alt="">
+                        <h4>Bollywood Butter</h4>
+                        <p>B bole toh biggest blockbusters, right here! Koi Shaq? 😎 Cover - Rocky Aur Rani Kii Prem
+                            Kahaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Bajirao.jpg" alt="">
+                        <h4>Bajirao Mastani</h4>
+                        <p>2015 • Various Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/agneepath.jpg" alt="">
+                        <h4>Agneepath</h4>
+                        <p>2011 • Ajay-Atul</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Deewarein.jpg" alt="">
+                        <h4>Deewarein</h4>
+                        <p>2023 • Manan Bhardwaj, Arijit Singh </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Content 2 -->
+
+            <div class="cards">
+                <div class="card-menu">
+                    <h2>Recently Played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="../images/horror time.jpg" alt="">
+                        <h4>Horror Time</h4>
+                        <p>Horror Time </p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/bollywood butter.jpg" alt="">
+                        <h4>Bollywood Butter</h4>
+                        <p>B bole toh biggest blockbusters, right here! Koi Shaq? 😎 Cover - Rocky Aur Rani Kii Prem
+                            Kahaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Bajirao.jpg" alt="">
+                        <h4>Bajirao Mastani</h4>
+                        <p>2015 • Various Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/agneepath.jpg" alt="">
+                        <h4>Agneepath</h4>
+                        <p>2011 • Ajay-Atul</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Deewarein.jpg" alt="">
+                        <h4>Deewarein</h4>
+                        <p>2023 • Manan Bhardwaj, Arijit Singh </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Content 3 -->
+            <div class="cards">
+                <div class="card-menu">
+                    <h2>Recently Played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="../images/horror time.jpg" alt="">
+                        <h4>Horror Time</h4>
+                        <p>Horror Time </p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/bollywood butter.jpg" alt="">
+                        <h4>Bollywood Butter</h4>
+                        <p>B bole toh biggest blockbusters, right here! Koi Shaq? 😎 Cover - Rocky Aur Rani Kii Prem
+                            Kahaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Bajirao.jpg" alt="">
+                        <h4>Bajirao Mastani</h4>
+                        <p>2015 • Various Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/agneepath.jpg" alt="">
+                        <h4>Agneepath</h4>
+                        <p>2011 • Ajay-Atul</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Deewarein.jpg" alt="">
+                        <h4>Deewarein</h4>
+                        <p>2023 • Manan Bhardwaj, Arijit Singh </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Content 4 -->
+            <div class="cards">
+                <div class="card-menu">
+                    <h2>Recently Played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="../images/horror time.jpg" alt="">
+                        <h4>Horror Time</h4>
+                        <p>Horror Time </p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/bollywood butter.jpg" alt="">
+                        <h4>Bollywood Butter</h4>
+                        <p>B bole toh biggest blockbusters, right here! Koi Shaq? 😎 Cover - Rocky Aur Rani Kii Prem
+                            Kahaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Bajirao.jpg" alt="">
+                        <h4>Bajirao Mastani</h4>
+                        <p>2015 • Various Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/agneepath.jpg" alt="">
+                        <h4>Agneepath</h4>
+                        <p>2011 • Ajay-Atul</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Deewarein.jpg" alt="">
+                        <h4>Deewarein</h4>
+                        <p>2023 • Manan Bhardwaj, Arijit Singh </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Content 5 -->
+            <div class="cards">
+                <div class="card-menu">
+                    <h2>Recently Played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="../images/horror time.jpg" alt="">
+                        <h4>Horror Time</h4>
+                        <p>Horror Time </p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/bollywood butter.jpg" alt="">
+                        <h4>Bollywood Butter</h4>
+                        <p>B bole toh biggest blockbusters, right here! Koi Shaq? 😎 Cover - Rocky Aur Rani Kii Prem
+                            Kahaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Bajirao.jpg" alt="">
+                        <h4>Bajirao Mastani</h4>
+                        <p>2015 • Various Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/agneepath.jpg" alt="">
+                        <h4>Agneepath</h4>
+                        <p>2011 • Ajay-Atul</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Deewarein.jpg" alt="">
+                        <h4>Deewarein</h4>
+                        <p>2023 • Manan Bhardwaj, Arijit Singh </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Content 6 -->
+            <div class="cards">
+                <div class="card-menu">
+                    <h2>Recently Played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="../images/horror time.jpg" alt="">
+                        <h4>Horror Time</h4>
+                        <p>Horror Time </p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/bollywood butter.jpg" alt="">
+                        <h4>Bollywood Butter</h4>
+                        <p>B bole toh biggest blockbusters, right here! Koi Shaq? 😎 Cover - Rocky Aur Rani Kii Prem
+                            Kahaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Bajirao.jpg" alt="">
+                        <h4>Bajirao Mastani</h4>
+                        <p>2015 • Various Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/agneepath.jpg" alt="">
+                        <h4>Agneepath</h4>
+                        <p>2011 • Ajay-Atul</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Deewarein.jpg" alt="">
+                        <h4>Deewarein</h4>
+                        <p>2023 • Manan Bhardwaj, Arijit Singh </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Content 7 -->
+            <div class="cards">
+                <div class="card-menu">
+                    <h2>Recently Played</h2>
+                    <a href="#">Show all</a>
+                </div>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="../images/horror time.jpg" alt="">
+                        <h4>Horror Time</h4>
+                        <p>Horror Time </p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/bollywood butter.jpg" alt="">
+                        <h4>Bollywood Butter</h4>
+                        <p>B bole toh biggest blockbusters, right here! Koi Shaq? 😎 Cover - Rocky Aur Rani Kii Prem
+                            Kahaani</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Bajirao.jpg" alt="">
+                        <h4>Bajirao Mastani</h4>
+                        <p>2015 • Various Artists</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/agneepath.jpg" alt="">
+                        <h4>Agneepath</h4>
+                        <p>2011 • Ajay-Atul</p>
+                    </div>
+                    <div class="card">
+                        <img src="../images/Deewarein.jpg" alt="">
+                        <h4>Deewarein</h4>
+                        <p>2023 • Manan Bhardwaj, Arijit Singh </p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <section class="footer-one">
+                    <div class="footer-one-left">
+                        <div class="company">
+                            <h4>company</h4>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">For the Record</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="Communities">
+                            <h3>Communities</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">For Artists</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Advertising </a></li>
+                                    <li><a href="#">Investors </a></li>
+                                    <li><a href="#">Vendors </a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="Useful-links">
+                            <h3>Useful links</h3>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Free Mobile App</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                    <div class="footer-one-right">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </section>
+                <section class="footer-two">
+
+                </section>
+            </footer>
+        </section>
+        <section class="music-player"></section>
+    </main>
+</body>
+
+</html>

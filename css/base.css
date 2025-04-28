@@ -1,0 +1,86 @@
+/* Local Font Family  */
+
+@font-face {
+    font-family: CircularSp-bold;
+    src: url(./fonts/CircularSp-Bold.woff2);
+}
+
+@font-face {
+    font-family: CircularSp-Book;
+    src: url(./fonts/CircularSp-Book.woff2);
+}
+
+@font-face {
+    font-family: CircularSp-Title-Black;
+    src: url(./fonts/CircularSpTitle-Black.woff2);
+}
+
+@font-face {
+    font-family: CircularSpTitle-Bold;
+    src: url(./fonts/CircularSpTitle-Bold.woff2);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Universal Css                                  */
+/* -------------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: CircularSp-book;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Root Css                                  */
+/* -------------------------------------------------------------------------- */
+
+:root{
+
+    /* Color */
+
+    --bg-color:#121212;
+    --bg-black: #000;
+    --bg-grey:#232323;
+
+
+    --defalt-transiton:0.2s all ease;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Selector CSS                                */
+/* -------------------------------------------------------------------------- */
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+
+}
+
+li{
+    list-style: none;
+}
+
+
+@keyframes cardhover {
+    0%{
+
+    }
+    
+    100%{
+        
+    }
+}
