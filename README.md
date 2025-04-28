@@ -1,1 +1,1 @@
-# DigiX
+# Spotify Clone
